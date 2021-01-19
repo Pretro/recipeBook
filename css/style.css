@@ -1,0 +1,48 @@
+/**Navbar section**/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: whitesmoke;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.navbar .navbar-brand {
+    font-weight: 700;
+    position: absolute;
+    left: 100px;
+    letter-spacing: 5px;
+}
+.navbar .navbar-brand i {
+    color: red;
+}
+.nav-link {
+    display: block;
+}
+.navbar .navbar-nav .btn-submit-recipe a {
+    margin-top: 13px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #e13b2b;
+    justify-content: left;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 700;
+    padding: 23px 25px;
+    color: #333;
+}
+/**End of Navbar**/
+/**Carousel section**/
+.carousel-item {
+    height: 32rem;
+    background: tomato;
+    color: white;
+    position: relative;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+/**End of Carousel section**/
